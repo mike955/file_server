@@ -1,0 +1,35 @@
+{
+  "name": "file_server",
+  "version": "1.0.0",
+  "description": "a service for file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./script/build.sh",
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superbear24/file_server/issues"
+  },
+  "homepage": "https://github.com/superbear24/file_server#readme",
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.3.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.51",
+    "@types/koa-jwt": "^3.3.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa-static": "^4.0.1",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
